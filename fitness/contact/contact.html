@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <nav>
+                <div class="navbar-item">
+                    <i class="fa fa-list" aria-hidden="true" onclick="openNav()"></i>
+
+                    <img src="../img/bashgahto-logo.svg" alt="">
+
+                    <ul class="said-menu">
+                        <i class="fa fa-times" onclick="closeNav()"></i>
+
+                        <li><a  href="../bashgahto/fitness.html">باشگاه تو </a></li>
+
+                        <li id="open-menu">
+                         برنامه بدنسازی 
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            <ul>
+                                <li><a href="../programer/program.html" >برنامه بدنسازی فیتنس</a></li>
+                                <li><a href="../programer/program.html">برنامه بدنسازی چربی سوز</a></li>
+                                <li><a href="../programer/program.html">برنامه بدنسازی حجمی</a></li>
+                            </ul>
+                        
+                        </li>
+                        <li> <a  href="../blog/blog.html">بلاگ</a></li>
+                        <li> <a  href="../blog/blog.html">برنامه ما</a></li>
+                        <li> <a  href="../contact/contact.html">تماس باما</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <button> <i class="fa fa-user-o" aria-hidden="true" style="margin-left: 0.4rem; font-size: 1rem;"></i> ورود | ثبت نام</button>
+                </div>
+            </nav>
+        </header>
+
+
+        <main>
+            <section class="contactUse">
+                <h2>تماس با ما</h2>
+
+                <div class="work-timed">
+                    <h3>ساعت کاری:</h3>
+                    <p>ما همه روز هفته پاسخگو به سوالات شما هستیم .</p>
+                </div>
+
+                <div class="information">
+                    <div class="addres">
+                        <div>
+                            <h4><i class="fa fa-map-marker" style="font-size: 1.5rem; color: #12834F;" aria-hidden="true"></i> آدرس :</h4>
+                            <p>کرج - مهرشهر - خیابان 111</p>
+                        </div>
+
+                        <div>
+                            <h4><i class="fa fa-telegram" aria-hidden="true" style="font-size: 1.5rem; color: blue;"></i> تلگرام - پاسخ به سوالات فنی :</h4>
+                            <p>09924015873</p>
+                        </div>
+                        <div>
+                            <h4><i class="fa fa-phone" style="font-size: 1.5rem; color: #12834F;" aria-hidden="true"></i>پشتیبانی:</h4>
+                            <p>09924015873</p>
+                        </div>
+                        <div>
+                            <h4><i class="fa fa-envelope" style="font-size: 1.5rem; color: blue;" aria-hidden="true"></i> ایمیل:</h4>
+                            <p>amryamiir@gmail.com</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="../img/تماس-با-ما-1229x1536.webp">
+                    </div>
+                </div>
+            </section>
+        </main>
+    
+        <footer>
+    
+            <div class="item-one">
+                <h2>وبسایت باشگاه تو</h2>
+                <p>باشگاه تو ، وب سایتی است که به شما این امکان را می‌دهد تا بتوانید برنامه بدن‌سازی و مکمل ورزشی خود را به صورت کاملاً آنلاین، تحت نظر معتبرترین مربیان و مشاوران تغذیه و ورزش از جمله آقای وحید نظری، مدیرعامل فدراسیون فیزیک ماسکولار استان فارس، دریافت نمایید. با باشگاه تو در هر لحظه مربی خود را همراه داشته باشید                </p>
+            </div>
+    
+            <div class="item-two">
+                <div>
+                    <i class="fa fa-minus" aria-hidden="true"></i>
+                    <h3>دسترسی آسان</h3>
+                </div>
+    
+                <div class="foter-list">
+                    <ul>
+                        <li>برنامه حجمی</li>
+                        <li>برنامه چربی سوز</li>
+                        <li>برنامه فیتنس</li>
+                    </ul>
+                    <ul>
+                        <li>مقالات آموزشی</li>
+                        <li>تماس با ما</li>
+                        <li>درباره ما</li>
+                    </ul>
+                </div>
+    
+                <h4 style="color:  #12834F;">طراحی شده توسط امیر صبری</h4>
+            </div>
+    
+            <div class="item-three">
+                <div>
+                    <i class="fa fa-minus" aria-hidden="true"></i>
+                    <h3>تماس باما</h3>
+                </div>
+                <p>از طریق شماره و شبکه های اجتماعی ای زیر با ما در ارتباط باشید . ما در هر کجا و هر لحظه پاسخگو به سوالات شما هستیم .</p>
+                <div class="footer-phone">
+                    <h4>09924015873</h4>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script>
+    function openNav() {
+    document.querySelector(".navbar-item > ul").style.display = "block";
+    document.querySelector(".fa-times").style.display = "block";
+    }
+
+    function closeNav() {
+        document.querySelector(".navbar-item > ul").style.display = "none";
+        }
+
+        let openMenu = document.querySelector("#open-menu")
+let menu = document.querySelector(".said-menu li > ul")
+
+openMenu.addEventListener(("mouseover") ,e => {
+    menu.style.display = "block"
+})
+
+openMenu.addEventListener(("mouseout") ,e => {
+    menu.style.display = "none"
+})
+</script>
+</html>
