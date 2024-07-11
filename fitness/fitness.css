@@ -1,6 +1,6 @@
 @font-face {
     font-family: vazir;
-    src: url(../Vazir-Medium.ttf);
+    src: url(./Vazir-Medium.ttf);
 }
 
 html body{
@@ -131,7 +131,7 @@ nav .navbar-item{
     padding: 10px;
     line-height:2.5rem;
     background-color: #ffffff; 
-    border-radius: 1rem; 
+    /* border-radius: 1rem;  */
 }
 
 nav div > button{
@@ -401,10 +401,6 @@ gap: 3rem;
     list-style: circle;
     margin-top: 0.5rem
 }
-
-
-
-
 
 .item-three{
     width: 20%;

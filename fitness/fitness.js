@@ -14,6 +14,10 @@ openMenu.addEventListener(("mouseover") ,e => {
     menu.style.display = "block"
 })
 
+openMenu.addEventListener(("click") ,e => {
+    menu.style.display = "block"
+})
+
 openMenu.addEventListener(("mouseout") ,e => {
     menu.style.display = "none"
 })

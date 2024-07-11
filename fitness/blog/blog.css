@@ -363,12 +363,23 @@ gap: 3rem;
 @media screen and (max-width:650px){
     .navbar-item > ul{
         display: none;
-        background-color: black;
-        color: white; 
-        width: 70%;
-        margin-top: 8rem;
+        line-height: 3rem;
+        background-color: rgb(0, 0, 0);
+        width: 75%;
+        margin-top: 4rem;
         position: absolute;
         right: 0;
+    }
+
+    .navbar-item > ul a{
+        color: white;
+    }
+    
+    .navbar-item > ul li{
+     color: white;
+    }
+    .said-menu  ul  {
+        background-color: black;
     }
     .navbar-item .fa-list{
         display: block;
@@ -376,11 +387,5 @@ gap: 3rem;
     
     nav div > button{
         margin-top: 1rem;
-    }
-}
-
-@media screen and (max-width:530px){
-    .Article-card{
-        margin-left: 5rem;
     }
 }

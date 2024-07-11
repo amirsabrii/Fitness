@@ -19,7 +19,11 @@
                     <ul class="said-menu">
                         <i class="fa fa-times" onclick="closeNav()"></i>
 
-                        <li><a  href="../bashgahto/fitness.html">باشگاه تو </a></li>
+                        <li><a  href="/fitness/fitness.html">باشگاه تو </a></li>
+
+                        <li> <a  href="../blog/blog.html">بلاگ</a></li>
+                        <li> <a  href="../blog/blog.html">برنامه ما</a></li>
+                        <li> <a  href="../contact/contact.html">تماس باما</a></li>
 
                         <li id="open-menu">
                          برنامه بدنسازی 
@@ -29,11 +33,7 @@
                                 <li><a href="../programer/program.html">برنامه بدنسازی چربی سوز</a></li>
                                 <li><a href="../programer/program.html">برنامه بدنسازی حجمی</a></li>
                             </ul>
-                        
                         </li>
-                        <li> <a  href="../blog/blog.html">بلاگ</a></li>
-                        <li> <a  href="../blog/blog.html">برنامه ما</a></li>
-                        <li> <a  href="../contact/contact.html">تماس باما</a></li>
                     </ul>
                 </div>
                 <div>
@@ -131,6 +131,10 @@ let openMenu = document.querySelector("#open-menu")
 let menu = document.querySelector(".said-menu li > ul")
 
 openMenu.addEventListener(("mouseover") ,e => {
+    menu.style.display = "block"
+})
+
+openMenu.addEventListener(("click") ,e => {
     menu.style.display = "block"
 })
 
